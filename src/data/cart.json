@@ -1,0 +1,17 @@
+[
+  {
+    "id": 007,
+    "name": "Three Cheers for Sweet Revenge",
+    "description": "My chemical romance album from 2004",
+    "price": 21,
+    "stock": 100
+  },
+  {
+    "id": 010,
+    "name": "Fallen",
+    "description": "Evanescence",
+    "price": 12,
+    "Stock": 100
+  },
+  
+]
