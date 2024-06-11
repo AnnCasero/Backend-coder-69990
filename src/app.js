@@ -1,15 +1,17 @@
 import express from "express";
-const app = express();
-const PUERTO = 8080;
+
 import cartsRouter from "../routes/carts.router.js";
 import productsRouter from "../routes/products.router.js"
+
+const app = express();
+const PUERTO = 8080;
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
 
-app.use ("/", productsRouter);
-app.use("/", cartsRouter);
+app.use ("/api/products", productsRouter);
+app.use("/api/carts", cartsRouter);
 
 
 app.listen(PUERTO, ()=> {
