@@ -1,0 +1,40 @@
+[
+    {
+        "id": "001",
+        "title": "BRING ME THE HORIZON - POST HUMAN: NeX GEn",
+        "description": "Bring me the horizon new album",
+        "code": "27924",
+        "price": 14,
+        "status": true,
+        "stock": 1000,
+        "category": "Music",
+        "thumbnails": ["nexgen.jpg", 
+        "nexgen2.jpg"]
+      },
+
+      {
+        "id": "002",
+        "title": "BAD OMENS - THE DEATH OF PEACE OF MIND",
+        "description": "Bad Omens album, year: 2022",
+        "code": "25222",
+        "price": 12,
+        "status": true,
+        "stock": 700,
+        "category": "Music",
+        "thumbnails": ["TheDeathOfPieceOfMind.jpg", 
+        "TheDeathOfPieceOfMind.jpg"]
+      },
+      {
+        "id": "003",
+        "title": "SLEEP TOKEN - TAKE ME BACK TO EDEN",
+        "description": "Sleep Token album, year: 2023",
+        "code": "19523",
+        "price": 12,
+        "status": true,
+        "stock": 500,
+        "category": "Music",
+        "thumbnails": ["TakeMeBackToEden.jpg",
+        "TakeMeBackToEden2.jpg"
+        ]
+      }
+]
