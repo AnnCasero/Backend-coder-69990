@@ -1,9 +1,8 @@
-import { Router} from "express";
-const router = Router();
+import express from "express";
+const router = express.Router;
 import fs from "fs";
 import path from "path";
 
-const router = express.Router();
 const productsFilePath = path.resolve("./src/data/products.json");
 
 
