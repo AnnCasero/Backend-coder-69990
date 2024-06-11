@@ -1,7 +1,10 @@
 import { Router} from "express";
 const router = Router();
-const products = [];
+import fs from "fs";
+import path from "path";
 
+const router = express.Router();
+const productsFilePath = path.resolve("./src/data/products.json");
 
 
 router.get("/api/products", (req, res) => {
